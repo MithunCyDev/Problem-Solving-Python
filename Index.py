@@ -20,3 +20,4 @@ def biggerIsGreater(w):
     w[i:] = w[len(w)-1:i-1:-1]
 
     return ''.join(w)
+
